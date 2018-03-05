@@ -6,7 +6,44 @@
 </head>
 <body>
 	<a-scene>
-		<a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+		<a-box 
+			rotation="20 60 0" 
+			color="#04ffcc"
+			position="-1 0.5 -3"
+		></a-box>
+		<a-box 
+			color="#84a0d0"
+			rotation="10 0 30" 
+			position="1 0.5 -3"
+			depth="0.2"
+				<a-circle 
+					color="#333333"				
+					position="0 0 1"
+					side="double"
+				></a-circle>
+		></a-box>
+		<a-cylinder 
+			radius="0.4" 
+			height="2.5" 
+			position="-1 0.5 -3"
+			segments-radial="6"
+			color="#eea5ff"
+			open-ended="true"
+			side="double"
+		></a-cylinder>
+		<a-sphere 
+			position="0 4.25 -8" 
+			radius="1.25" 
+			color="#EF2D5E"
+		></a-sphere>
+		<a-plane 
+			position="0 -2 -4" 
+			rotation="-90 0 0" 
+			width="4" 
+			height="4" 
+			color="#7BC8A4"
+		></a-plane>
+		<a-sky color="#7fc0e4"></a-sky>
 	</a-scene>
 </body>
 </html>
